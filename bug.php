@@ -1,0 +1,1 @@
+This code snippet demonstrates a common error in PHP related to how PHP handles array keys. When you use a non-string value as an array key, PHP will automatically cast the key to a string. This can lead to unexpected results. In this example, the integer keys 1 and 1.0 are treated as the same string key '1', resulting in only one element being stored in the array.
