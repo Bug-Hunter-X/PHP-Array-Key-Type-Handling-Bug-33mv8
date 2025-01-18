@@ -1,0 +1,1 @@
+The solution is to ensure that all keys are of the same type and are consistent.  If you intend to use numeric keys, maintain the integer type.  If strings are needed, use appropriate string representations for the keys to ensure that they are distinct and prevent unintended key collisions.  This prevents PHP's automatic type juggling from causing issues.
